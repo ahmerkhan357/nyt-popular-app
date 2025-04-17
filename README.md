@@ -23,3 +23,43 @@ A responsive and clean React-based web app that displays **New York Times' Most 
 ```bash
 git clone https://github.com/ahmerkhan357/nyt-popular-app.git
 cd nyt-popular-app
+
+## 📦 Install Dependencies
+
+To install all the required packages, run:
+
+```bash
+npm install
+
+Run the Application Locally
+npm start
+
+✅ Unit Tests (Jest + React Testing Library)
+To execute all unit tests:
+npm test
+
+📊 Generate Coverage Report
+To generate a code coverage report:
+npm test -- --coverage
+
+
+🧪 End-to-End Testing (Cypress)
+Open Cypress Test Runner:
+npx cypress open
+
+
+🗂️ Folder Structure
+nyt-popular-app/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── services/
+│   ├── tests/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── cypress/
+├── README.md
+└── package.json
+
