@@ -1,0 +1,45 @@
+.detail-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .back-button {
+    background: #002D62;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .back-button:hover {
+    background: #003b85;
+  }
+  
+  .detail-title {
+    color: #002D62;
+    margin-bottom: 10px;
+  }
+  
+  .abstract {
+    font-size: 1.1em;
+    margin: 20px 0;
+  }
+  
+  .read-link {
+    display: inline-block;
+    color: white;
+    background: #28a745;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  
+  .read-link:hover {
+    background: #218838;
+  }
